@@ -1,6 +1,6 @@
 {
 "name": "markdown-chunker",
-"version": "0.1.0",
+"version": "0.1.1",
 "private": true,
 "type": "module",
 "scripts": {
@@ -17,6 +17,14 @@
 "devDependencies": {
 "@vitejs/plugin-react-swc": "^3.7.0",
 "typescript": "^5.5.4",
-"vite": "^5.4.0"
+"vite": "^5.4.0",
+"rollup": "^4.21.0",
+"@rollup/rollup-linux-x64-gnu": "^4.21.0"
+},
+"overrides": {
+"rollup": "^4.21.0"
+},
+"engines": {
+"node": ">=18"
 }
 }
